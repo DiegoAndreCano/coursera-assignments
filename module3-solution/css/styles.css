@@ -1,0 +1,60 @@
+body {
+  background-color: maroon;
+}
+#headbar {
+  background-color: green;
+  border-bottom: 2px solid black;
+  padding: 0;
+  overflow: hidden;
+}
+.navbar-brand {
+  font-size: 2.5em;
+  font-weight: 600;
+}
+.navbar-nav a {
+  color: white !important;
+  font-size: 1.3em;
+}
+li {
+  border-top: 1px solid white;
+  background-color: rgb(67, 179, 67);
+}
+.navbar-collapse {
+  padding-top: 15px;
+}
+#beef {
+  border-bottom: 0px;
+}
+h1 {
+  margin-bottom: 15px;
+  color: white;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.col-12 {
+  background-color: wheat;
+  height: 1000px;
+  width: 300px;
+  border: 3px solid brown;
+  padding: 15px;
+  text-align: justify;
+  overflow: hidden;
+}
+.row {
+  margin: auto;
+}
+@media (min-width: 576px) {
+  #headbar .container {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 575px) {
+  .navbar-brand,
+  h1,
+  h2 {
+    font-size: 8vw;
+  }
+  p {
+    font-size: 6vw;
+  }
+}
